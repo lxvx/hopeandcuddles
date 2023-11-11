@@ -1,0 +1,85 @@
+.socials-button {
+    background-color: #000000; /*black*/
+    width: 100px;
+    height: 100px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;        
+    transition: opacity 0.15s;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-top: 3px;
+    margin-left: 8px;
+    border-radius: 3px;
+    transition: background-color 0.20s;
+    display: block;
+}
+
+.socials-button:hover {
+    background-color: gray;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.about-me-button {
+    background-color: #000000; /*black*/
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition: opacity 0.15s;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-right: 8px;
+    border-radius: 3px;
+    margin-left: 8px;
+    transition: background-color 0.20s;
+}
+
+.about-me-button:hover {
+    background-color: gray;
+    opacity: 0.7;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+#sidebar {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: #000;
+    left: -300px;
+    transition: .4s;
+}
+
+#sidebar ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 26px 24px;
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+}
+
+.toggle-btn span {
+    width: 45px;
+    height: 4px;
+    background: #000;
+    display: block;
+    margin-top: 4px;
+}
+
+#sidebar.active {
+    left: 0;
+}
+

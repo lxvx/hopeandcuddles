@@ -1,0 +1,1 @@
+$base64string = [Convert]::ToBase64String([IO.File]::ReadAllBytes("file"))
